@@ -26,3 +26,11 @@ const combined = {
 };
 
 console.log(combined);
+
+const newcombined = {
+  ...user,
+  ...details,
+  ...{ name: 'Almirah' },
+};
+
+console.log(newcombined);
